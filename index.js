@@ -19,8 +19,6 @@ AWS.config.update({ region: 'ap-northeast-1' });
 var params = {
     Message: mes,
     PhoneNumber: '' // Phone Number
-    //  TopicArn: 'arn:aws:sns:ap-northeast-1:183093078280:parkingJS_sns',
-    //  TargetArn: 'arn:aws:sns:ap-northeast-1:183093078280:parkingJS_sns:c3b21744-05a4-405c-8a5c-4a38e75b74b4'
 };
 
 app.use(bodyParser.urlencoded({ extended: false }));
